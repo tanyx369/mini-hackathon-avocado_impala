@@ -9,6 +9,7 @@ Run `python -m venv venv`, and activate it by running `source venv/Scripts/activ
 5. After you pull the updated `requirements.txt`, you need to update your local environment as well by running `pip install -r requirements.txt`
 
 ## How to push?
+Before you wanted to push, please deactivate the venv by running `deactivate` <br>
 1. `git add .`
 2. `git commit -m "Write your commit msg here"`
 3. `git push -u origin main`
